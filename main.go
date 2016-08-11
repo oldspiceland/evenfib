@@ -2,9 +2,8 @@ package main
 
 import (
 	"github.com/oldspiceland/evenfib/fibgen"
-	"flag"
 )
 
 func main() {
-	fibgen.Generate()
+	fibgen.GenerateSeq(1,2,4000000)
 }
