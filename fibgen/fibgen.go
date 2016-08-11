@@ -5,7 +5,7 @@ import (
 )
 
 func findNext(fib1, fib2 int) (fib3 int) {
-	fib3 := fib1 + fib2
+	fib3 = fib1 + fib2
 	return
 }
 
