@@ -22,6 +22,7 @@ func main() {
 	fmt.Printf("The sum of the even sequence members is %v\n", fibSum)
 }
 
+//summer takes a slice of int, returns an int
 func summer(seq []int) (sum int) {
 	sum = 0
 	for i := 0; i < len(seq); i++ {
@@ -32,6 +33,7 @@ func summer(seq []int) (sum int) {
 	return
 }
 
+//getSeed takes two no args, returns two ints, gets one user input
 func getSeed() (seedOne int, seedTwo int) {
 	seed := 0
 	fmt.Print("Enter first sequence member: ")
