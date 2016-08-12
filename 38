@@ -35,7 +35,7 @@ func summer(seq []int) (sum int) {
 func getSeed() (seedOne int, seedTwo int) {
 	seed := 0
 	fmt.Print("Enter first sequence member: ")
-	_, _ = fmt.Scanf("%v", &seed)
+	_, _ := fmt.Scanf("%v", &seed)
 	seedOne = seed
 	seedTwo = seedOne + seedOne
 	return
