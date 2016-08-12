@@ -9,7 +9,7 @@ func findNext(fib1, fib2 int) (fib3 int) {
 	return
 }
 
-func GenerateSeq(seed1, seed2, limit int) int { //GenerateSeq takes two seeds and a limit
+func GenerateSeq(seed1, seed2, limit int) []int { //GenerateSeq takes two seeds and a limit
 	seq := make([]int, 10000)
 	fib := 0
 	for fib < limit {
